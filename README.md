@@ -2,6 +2,7 @@
 ### Satellite Change Detection with TensorFlow (LEVIR-CD)
 
 This project implements a deep learning model to detect changes in satellite imagery over time. Using the LEVIR-CD dataset, the model learns to identify man-made changes such as building constructions or demolitions by comparing two high-resolution images captured at different times.
+<img width="1240" height="1440" alt="image" src="https://github.com/user-attachments/assets/cd619e5c-f40f-470e-a7db-50e9c361d03a" />
 
 ---
 
@@ -49,6 +50,7 @@ pip install -r requirements.txt
 ##  Dataset: LEVIR-CD
 
 LEVIR-CD contains 637 pairs of high-resolution (1024×1024) images and change masks. It focuses on building change detection over time.
+<img width="547" height="550" alt="image" src="https://github.com/user-attachments/assets/a6f2ac53-cde3-4839-af8c-18afb4377af3" />
 
 To use it:
 
@@ -136,6 +138,7 @@ plt.imshow(pred[:, :, 0] > 0.5, cmap='gray')
 * (IoU and Dice score: coming soon)
 
 ---
+<img width="550" height="283" alt="image" src="https://github.com/user-attachments/assets/88b8c421-0701-44a6-a97b-0315eb79dcce" />
 
 ##  Future Plans
 
