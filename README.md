@@ -5,7 +5,7 @@ This project implements a deep learning model to detect changes in satellite ima
 
 ---
 
-## 📌 Features
+##  Features
 
 - Siamese UNet architecture built in TensorFlow
 - Pixel-level change detection on real satellite images
@@ -15,7 +15,7 @@ This project implements a deep learning model to detect changes in satellite ima
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 Install all dependencies:
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🛰 Dataset: LEVIR-CD
+##  Dataset: LEVIR-CD
 
 LEVIR-CD contains 637 pairs of high-resolution (1024×1024) images and change masks. It focuses on building change detection over time.
 
@@ -70,7 +70,7 @@ python data/scripts/download_datasets.py
 
 ---
 
-## 🚀 Training the Model
+##  Training the Model
 
 ```bash
 python src/train.py
@@ -84,7 +84,7 @@ This will:
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 To evaluate the trained model:
 
@@ -102,7 +102,7 @@ You can modify the script to print or save predictions as images.
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 * **Input**: Two RGB images of shape (256×256×3)
 * **Backbone**: Siamese UNet
@@ -113,7 +113,7 @@ You can swap in more complex models later (e.g., ResUNet, DeepLabV3).
 
 ---
 
-## 🧪 Visualizing Predictions
+##  Visualizing Predictions
 
 Use a notebook or custom script to visualize outputs:
 
@@ -127,7 +127,7 @@ plt.imshow(pred[:, :, 0] > 0.5, cmap='gray')
 
 ---
 
-## 📈 Metrics
+##  Metrics
 
 * Binary Accuracy
 * Precision
@@ -137,7 +137,7 @@ plt.imshow(pred[:, :, 0] > 0.5, cmap='gray')
 
 ---
 
-## 🧩 Future Plans
+##  Future Plans
 
 * Add CRF and other post-processing options
 * Support for other datasets (OSCD, CDD)
@@ -146,7 +146,7 @@ plt.imshow(pred[:, :, 0] > 0.5, cmap='gray')
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use the LEVIR-CD dataset, please cite:
 
@@ -154,7 +154,7 @@ If you use the LEVIR-CD dataset, please cite:
 
 ---
 
-## 🧑‍💻 Maintainer
+##  Maintainer
 
 
 ---
