@@ -149,14 +149,6 @@ plt.imshow(pred[:, :, 0] > 0.5, cmap='gray')
 
 ---
 
-##  Citation
-
-If you use the LEVIR-CD dataset, please cite:
-
-> Chen, H., & Shi, Z. (2020). A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection. *arXiv preprint arXiv:2004.05502*
-
----
-
 ##  Maintainer
 
 
